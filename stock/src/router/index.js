@@ -4,9 +4,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import BoardView from "../views/BoardView.vue";
 import PostView from "../views/PostView.vue";
 import MyPageView from "@/views/MyPageView.vue";
+import MainPage from "../views/MainPage.vue";
 
 // 라우터 설계
 const routes = [
+  { path: "/home", component: MainPage },
   { path: "/mypage", component: MyPageView },
   { path: "/board", component: BoardView },
   { path: "/board/post", component: PostView },
