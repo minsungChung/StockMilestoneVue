@@ -15,10 +15,13 @@
           <label for="password">pw:</label>
           <input id="password" type="text" v-model="password" />
         </div>
-        <img src="../../img/googleLogin.png" />
-
-        <button type="submit" class="btn">로그인</button>
+        <div id="log-but"><button type="submit" id="butt">로그인</button></div>
       </form>
+
+      <div class="social-login">
+        <button class="social-btn"><img src="../../img/googleLogin.png" /></button>
+        <button class="social-btn"><img src="../../img/kakaoLogin.png" /></button>
+      </div>
       <p class="log">{{ logMessage }}</p>
     </div>
   </div>
@@ -27,7 +30,19 @@
 <script setup></script>
 
 <style scoped>
-.btn {
-  color: white;
+.social-login {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-btn {
+  border: 0px;
+  background-color: transparent;
+}
+
+#log-but {
+  display: flex;
+  justify-content: center;
 }
 </style>
