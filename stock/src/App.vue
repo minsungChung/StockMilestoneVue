@@ -23,8 +23,20 @@
   }
 
   #real{
+    display: flex;
     width: 70%;
     height: 100%;
     margin: 50px auto;
+    justify-content: space-between;
+  }
+
+  #butt{
+    border-style: none;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: orange;
   }
 </style>

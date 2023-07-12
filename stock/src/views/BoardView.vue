@@ -1,7 +1,11 @@
 <template>
   <div id="back">
     <div id="real">
-      <div id="title">게시판</div>
+      <span>
+        <span id="title">게시판</span>
+        <img>
+      </span>
+      <button id="butt">글쓰기</button>
     </div>
 
     <background/>
