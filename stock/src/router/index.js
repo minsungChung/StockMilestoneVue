@@ -6,6 +6,7 @@ import PostView from "../views/PostView.vue";
 
 // 라우터 설계
 const routes = [
+  {path: "/mypage", component: MyPageView},
   { path: "/board", component: BoardView },
   { path: "/board/post", component: PostView },
 ];
