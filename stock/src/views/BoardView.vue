@@ -1,12 +1,20 @@
 <template>
-  <div><background/></div>
+  <div id="back">
+    <div id="real">
+      <div id="title">게시판</div>
+    </div>
+
+    <background/>
+  </div>
 </template>
 
 <script setup>
-  import background from "../components/BackgroundComponent.vue";
 
 </script>
 
 <style scoped>
-
+  #title{
+    font-size: xx-large;
+    font-weight: bold;
+  }
 </style>
