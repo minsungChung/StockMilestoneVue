@@ -1,7 +1,12 @@
 <template>
-  <div>BoardView</div>
+  <div><background/></div>
 </template>
 
-<script setup></script>
+<script setup>
+  import background from "../components/BackgroundComponent.vue";
 
-<style lang="scss" scoped></style>
+</script>
+
+<style scoped>
+
+</style>
