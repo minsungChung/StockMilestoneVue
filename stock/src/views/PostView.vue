@@ -1,9 +1,10 @@
 <template>
-  <div><background/></div>
+  <div id="back">
+
+  </div>
 </template>
 
 <script setup>
-  import background from "../components/BackgroundComponent.vue";
 </script>
 
 <style scoped>
