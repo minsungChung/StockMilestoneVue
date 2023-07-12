@@ -1,15 +1,13 @@
 <template>
-  <div id="back">
-  </div>
+  <div id="back"></div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped>
-  #back{
-    width: 80vw;
-    height: 80vh;
-    background-color: white;
-  }
+#back {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
 </style>

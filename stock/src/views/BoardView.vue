@@ -7,8 +7,9 @@
       </span>
       <button id="butt">글쓰기</button>
     </div>
-
-    <background />
+    <div id="post-box"></div>
+    <div id="post-box"></div>
+    <div id="post-box"></div>
   </div>
 </template>
 
@@ -23,5 +24,21 @@ img {
   margin-left: 5px;
   width: 25px;
   height: 30px;
+}
+#post-box {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 50px 30px;
+  margin: 30px 80px;
+  background-color: LightBlue;
+}
+
+#real {
+  display: flex;
+  width: 20%;
+  height: 20%;
+  margin: 50px auto;
+  justify-content: flex-end;
+  justify-content: space-around;
 }
 </style>
