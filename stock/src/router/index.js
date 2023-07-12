@@ -4,7 +4,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import BoardView from "../views/BoardView.vue";
 import PostView from "../views/PostView.vue";
 import MyPageView from "@/views/MyPageView.vue";
-import MainPage from "../views/MainPage.vue";
 import LoginPage from "../views/LoginPage.vue";
 
 // 라우터 설계

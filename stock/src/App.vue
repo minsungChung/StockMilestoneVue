@@ -26,11 +26,9 @@
 }
 
 #real {
-  display: flex;
   width: 70%;
   height: 100%;
   margin: 50px auto;
-  justify-content: space-between;
 }
 
 #butt {
