@@ -11,7 +11,7 @@
 @import url("./css/common.css");
 
 #app {
-  display: flex;
+  display: flex
   justify-content: center;
   align-items: center;
   width: 100vw;
