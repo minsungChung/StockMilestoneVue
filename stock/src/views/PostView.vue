@@ -8,9 +8,17 @@
     <div id="title">
       진영님 왜 저한테는 stash를 안 알려주셨나요ㅠ
     </div>
+      <div id="details">작성자: 정민성 작성 날짜 : 2023-01-23</div>
     <div id="content">
-        아니 진영님은 대체 어딜 가신거야
-        부르지도 않았는데;;;;
+      아니 진영님은 대체 어딜 가신거야<br>
+      부르지도 않았는데;;;;<br>
+      wefewfewfefefwfwefwefwefwefwefwe<br>
+      아니 진영님은 대체 어딜 가신거야<br>
+      아니 진영님은 대체 어딜 가신거야<br>
+      아니 진영님은 대체 어딜 가신거야<br>
+      아니 진영님은 대체 어딜 가신거야<br>
+      아니 진영님은 대체 어딜 가신거야<br>
+
     </div>
 
     <button id="butt">댓글 보기</button>
@@ -33,8 +41,8 @@
     margin-bottom: 15px;
 }
 #content{
-  margin-top: 30px;
-  height: 40%;
+  margin-top: 20px;
+  height: 45%;
 }
 textarea{
   border: 1px solid orange;
@@ -44,8 +52,13 @@ textarea{
   padding: 10px;
 }
 #comment{
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
+}
+#details{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 </style>
