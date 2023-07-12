@@ -1,7 +1,11 @@
 <template>
-  <div>PostView</div>
+  <div><background/></div>
 </template>
 
-<script setup></script>
+<script setup>
+  import background from "../components/BackgroundComponent.vue";
+</script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+
+</style>
