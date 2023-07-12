@@ -10,6 +10,11 @@
 @import url("./css/reset.css");
 @import url("./css/common.css");
 
+#title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 #app {
   display: flex;
   justify-content: center;
@@ -39,5 +44,6 @@
   border-radius: 10px;
   font-size: large;
   background-color: orange;
+  margin-left: 10px;
 }
 </style>

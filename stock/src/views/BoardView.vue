@@ -22,10 +22,6 @@ import PostComponent from "../components/PostComponent.vue";
 </script>
 
 <style scoped>
-#title {
-  font-size: xx-large;
-  font-weight: bold;
-}
 img {
   margin-left: 5px;
   width: 25px;
