@@ -1,6 +1,6 @@
 <template>
   <div id="back">
-    <HeaderNav />
+    <!-- <HeaderNav /> -->
 
     <div id="real">
       <span id="space">

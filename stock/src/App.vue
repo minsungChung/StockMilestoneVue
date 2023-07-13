@@ -1,6 +1,10 @@
 <template>
+
   <div id="app" class="app-contents">
-    <router-view> </router-view>
+    <div>
+      <HeaderNav/>
+      <router-view> </router-view>
+    </div>
   </div>
 </template>
 
@@ -11,6 +15,10 @@ import HeaderNav from "./components/HeaderNav.vue";
 <style>
 @import url("./css/reset.css");
 @import url("./css/common.css");
+
+.contents{
+  width: 80vw;
+}
 
 #title {
   font-size: 30px;
