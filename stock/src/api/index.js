@@ -6,4 +6,4 @@ function createInstance() {
   });
 }
 
-export const posts = createInstance();
+export const baseAxios = createInstance();

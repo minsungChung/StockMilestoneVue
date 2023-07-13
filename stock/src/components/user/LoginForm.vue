@@ -19,7 +19,7 @@
       </form>
 
       <div class="social-login">
-        <button class="social-btn"><img src="../../img/googleLogin.png" /></button>
+        <button class="social-btn" @click="getLoginLink('google')" ><img src="../../img/googleLogin.png" /></button>
         <button class="social-btn"><img src="../../img/kakaoLogin.png" /></button>
       </div>
       <p class="log">{{ logMessage }}</p>
@@ -27,7 +27,16 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import {getSocialLoginLink} from '../../api/auth.js'
+
+async function getLoginLink(type){
+  const {data} = await getSocialLoginLink(type);
+  console.log(data.result);
+  window.open(data.result);
+}
+
+</script>
 
 <style scoped>
 .social-login {

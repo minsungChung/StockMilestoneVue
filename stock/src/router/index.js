@@ -9,6 +9,7 @@ import PostAddView from "../views/PostAddView.vue";
 
 // 라우터 설계
 const routes = [
+  { path: "/", component: BoardView },
   { path: "/mypage", component: MyPageView },
   { path: "/board", component: BoardView },
   { path: "/board/post/1", component: PostView },
