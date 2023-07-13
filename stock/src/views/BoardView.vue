@@ -8,7 +8,9 @@
           <span id="title">게시판</span>
           <img src="../assets/image.png" />
         </div>
-        <button id="butt">글쓰기</button>
+        <router-link to="/board/post">
+          <button id="butt">글쓰기</button>
+        </router-link>
       </span>
       <div id="posts">
         <PostItem v-for="post in posts" :key="post.id" :post="post"></PostItem>
