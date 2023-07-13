@@ -1,5 +1,6 @@
 <template>
   <div id="post-box">
+    <div>{{ post.nickName }}</div>
     <div>
       {{ post.content }}
     </div>

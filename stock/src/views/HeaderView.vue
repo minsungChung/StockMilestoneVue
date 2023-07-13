@@ -1,9 +1,9 @@
 <template>
-  <header class="header"><HeaderComponent /></header>
+  <HeaderNav />
 </template>
 
 <script setup>
-import HeaderComponent from "../components/HeaderComponent.vue";
+import HeaderNav from "../components/HeaderNav.vue";
 </script>
 
 <style scoped></style>

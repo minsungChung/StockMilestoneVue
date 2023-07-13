@@ -1,12 +1,11 @@
 <template>
   <div id="app" class="app-contents">
-    <HeaderView />
-    <router-view></router-view>
+    <router-view> </router-view>
   </div>
 </template>
 
 <script setup>
-import HeaderView from "./views/HeaderView.vue";
+import HeaderNav from "./components/HeaderNav.vue";
 </script>
 
 <style>
@@ -23,13 +22,13 @@ import HeaderView from "./views/HeaderView.vue";
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: bisque;
 }
 
 #back {
   width: 80vw;
-  height: 80vh;
+  /* height: 80vh; */
   background-color: white;
 }
 

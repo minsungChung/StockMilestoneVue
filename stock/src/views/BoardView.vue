@@ -1,5 +1,7 @@
 <template>
   <div id="back">
+    <HeaderNav />
+
     <div id="real">
       <span id="space">
         <div>
@@ -9,15 +11,16 @@
         <button id="butt">글쓰기</button>
       </span>
       <div id="posts">
-        <PostComponent v-for="post in posts" :key="post.id" :post="post"></PostComponent>
+        <PostItem v-for="post in posts" :key="post.id" :post="post"></PostItem>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import PostComponent from "../components/PostComponent.vue";
+import PostItem from "../components/PostItem.vue";
 import { fetchPosts } from "@/api/posts";
+import HeaderNav from "@/components/HeaderNav.vue";
 import { onMounted } from "vue";
 import { ref } from "vue";
 
