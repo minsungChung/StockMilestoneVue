@@ -5,6 +5,7 @@ import BoardView from "../views/BoardView.vue";
 import PostView from "../views/PostView.vue";
 import MyPageView from "@/views/MyPageView.vue";
 import LoginPage from "../views/LoginPage.vue";
+import HeaderPage from "../views/HeaderView.vue";
 
 // 라우터 설계
 const routes = [
@@ -12,6 +13,7 @@ const routes = [
   { path: "/board", component: BoardView },
   { path: "/board/post", component: PostView },
   { path: "/login", component: LoginPage },
+  { path: "/header", component: HeaderPage },
 ];
 
 // 라우터 생성

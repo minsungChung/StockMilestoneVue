@@ -1,10 +1,13 @@
 <template>
   <div id="app" class="app-contents">
+    <HeaderView />
     <router-view></router-view>
   </div>
 </template>
 
-<script></script>
+<script setup>
+import HeaderView from "./views/HeaderView.vue";
+</script>
 
 <style>
 @import url("./css/reset.css");

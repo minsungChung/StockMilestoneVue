@@ -1,7 +1,32 @@
 <template>
-  <div>헤더</div>
-</template>
-
-<script setup></script>
-
-<style lang="scss" scoped></style>
+  <nav class="navbar navbar-expand-lg bg-warning rounded-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">공지</a>
+          <a class="nav-link" href="#">이야기</a>
+          <a class="nav-link" href="#">정보방</a>
+          <div class = "text-end">
+          <button class="btn btn-outline-success" type="button">sign in</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </template>
+  
+  <script>
+  export default{
+    setup() {
+      return {};
+      },
+  
+  };
+  </script>
+  
+  <style lang = "scss" scoped></style>
+  
