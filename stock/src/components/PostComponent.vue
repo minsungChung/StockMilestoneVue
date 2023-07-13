@@ -1,8 +1,25 @@
 <template>
-  <div id="post-box"></div>
+  <div id="post-box">
+    <div>
+      {{ post.content }}
+    </div>
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineProps({
+  post: {
+    default() {
+      return {
+        id: 1,
+        content: "",
+        likeNum: "",
+        nickName: "",
+      };
+    },
+  },
+});
+</script>
 
 <style scoped>
 #post-box {
